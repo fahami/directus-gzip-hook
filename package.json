@@ -1,6 +1,6 @@
 {
-	"name": "directus-extension-directus-extension-gzip-hook",
-	"version": "0.1.0",
+	"name": "@fahami/directus-gzip-hook",
+	"version": "0.1.1",
 	"keywords": [
 		"directus",
 		"directus-extension",
@@ -30,15 +30,16 @@
 	},
 	"prettier": "directus-codestyle/prettier",
 	"stylelint": {
-	  "extends": "directus-codestyle/stylelint"
+		"extends": "directus-codestyle/stylelint"
 	},
 	"eslintConfig": {
-	  "extends": "./node_modules/directus-codestyle/.eslintrc.js",
-	  "parserOptions": {
-		"sourceType": "module"
-	  },
-	  "rules": {
-		"vue/multi-word-component-names": 0
-	  }
-	}
+		"extends": "./node_modules/directus-codestyle/.eslintrc.js",
+		"parserOptions": {
+			"sourceType": "module"
+		},
+		"rules": {
+			"vue/multi-word-component-names": 0
+		}
+	},
+	"main": "dist/index.js"
 }
